@@ -12,7 +12,7 @@ const char* password = "YOUR_WIFI_PASSWORD";  // <--- Replace with your Wi-Fi Pa
 WebServer server(80);
 
 // Global operational buffer string to preserve message arrays across clock cycles
-String globalDataMessage = "Awaiting initial text stream transmission from ESP32 Serial Monitor...";
+String globalDataMessage = "Welcome to Esp Toky. The ESP32 Serial Monitor supports sending messages via IP address. The assistant is ready and operational..";
 
 // =========================================================================
 // WEB SERVER ENDPOINT HANDLERS (DATA STREAMING PIPELINES)
